@@ -1,0 +1,7 @@
+node_modules/
+build/
+*.lock
+*.svg
+*.png
+*.jpg
+*.jpeg
