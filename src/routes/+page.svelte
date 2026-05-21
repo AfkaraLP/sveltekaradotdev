@@ -3,12 +3,18 @@
 	import Footer from "$lib/components/Footer.svelte";
 	import ProjectCard from "$lib/components/ProjectCard.svelte";
 	import DropCapTitle from "$lib/components/DropCapTitle.svelte";
-	import { PROJECTS } from "$lib/config";
+	import BookmarkCard from "$lib/components/BookmarkCard.svelte";
+	import { PROJECTS, BOOKMARKS } from "$lib/config";
 
 	const projects = PROJECTS;
+	const bookmarks = BOOKMARKS;
 	const half = Math.ceil(projects.length / 2);
 	const firstHalf = projects.slice(0, half);
 	const secondHalf = projects.slice(half);
+
+	let showAllBookmarks = $state(false);
+	const visibleBookmarks = $derived(showAllBookmarks ? bookmarks : bookmarks.slice(0, 3));
+	const hasMore = bookmarks.length > 3;
 </script>
 
 <DropCapTitle title="The Afkara Gazette" />
@@ -63,6 +69,24 @@
 		</div>
 	</section>
 
+	<div class="divider">
+		<span class="divider-ornament">$</span>
+	</div>
+
+	<section id="bookmarks">
+		<h3 class="section-header">Recommended Reading for the Curious Mind</h3>
+		<div class="bookmark-contents">
+			{#each visibleBookmarks as bookmark}
+				<BookmarkCard {bookmark} />
+			{/each}
+		</div>
+		{#if hasMore}
+			<button class="view-more-btn" onclick={() => showAllBookmarks = !showAllBookmarks}>
+				{showAllBookmarks ? '— Conceal the Remainder —' : '— Reveal All Entries —'}
+			</button>
+		{/if}
+	</section>
+	
 	<div class="divider">
 		<span class="divider-ornament">&#10022;</span>
 	</div>
@@ -187,5 +211,27 @@
 		.column:last-child {
 			border-bottom: none;
 		}
+	}
+
+	.bookmark-contents {
+		margin: 20px 0;
+	}
+
+	.view-more-btn {
+		display: block;
+		margin: 20px auto;
+		padding: 8px 24px;
+		font-family: 'IM Fell English', Georgia, serif;
+		font-size: 1rem;
+		font-style: italic;
+		color: var(--black);
+		background: var(--yellowish);
+		border: none;
+		cursor: pointer;
+		letter-spacing: 0.05em;
+	}
+
+	.view-more-btn:hover {
+		text-decoration: underline;
 	}
 </style>

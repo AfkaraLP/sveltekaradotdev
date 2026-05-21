@@ -6,7 +6,34 @@ export interface Project {
 	repo: string;
 }
 
+export interface Bookmark {
+	title: string,
+	url: string,
+	description: string,
+	tags: string[]
+}
+
 export const YEAR = new Date().getFullYear();
+export const BOOKMARKS: Bookmark[] = [
+	{
+		title: "Attention Is All You Need",
+		url: "https://arxiv.org/abs/1706.03762",
+		description: "The seminal paper from the scholars of Google that first unveiled the Transformer architecture and hath since reshaped the entire landscape of machine learning",
+		tags: ["paper", "arxiv", "machine-learning", "fundamental", "research"]
+	},
+	{
+		title: "The Rust Programming Language",
+		url: "https://doc.rust-lang.org/book/",
+		description: "The official tome for those who seek mastery of Rust, guiding the reader from first principles to advanced craft in a language of great safety and elegance",
+		tags: ["book", "rust", "programming-language", "learning"]
+	},
+	{
+		title: "Learn You a Haskell for Great Good!",
+		url: "https://learnyouahaskell.github.io/",
+		description: "A most whimsical and delightful introduction to Haskell, the purest of functional languages, written for those who dare to think in abstractions",
+		tags: ["book", "haskell", "functional", "learning"]
+	}
+]
 
 export const PROJECTS: Project[] = [
 
@@ -103,3 +130,4 @@ export function generateLetterFavicon(letter: string): string {
 
 	return canvas.toDataURL('image/png');
 }
+
