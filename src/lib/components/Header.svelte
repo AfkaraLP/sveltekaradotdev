@@ -19,6 +19,7 @@
 	<a href="/#projects">Projects</a>
 	<a href="/blog">Blog</a>
 	<a href="/#contact">Contact</a>
+	<a href="/#bookmarks">Bookmarks</a>
 </nav>
 
 <style>
