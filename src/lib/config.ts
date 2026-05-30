@@ -32,6 +32,30 @@ export const BOOKMARKS: Bookmark[] = [
 		url: "https://learnyouahaskell.github.io/",
 		description: "A most whimsical and delightful introduction to Haskell, the purest of functional languages, written for those who dare to think in abstractions",
 		tags: ["book", "haskell", "functional", "learning"]
+	},
+	{
+		title: "Auto-Encoding Variational Bayes",
+		url: "https://arxiv.org/abs/1312.6114",
+		description: "The foundational treatise by Kingma and Welling that bestowed upon the world the Variational Autoencoder, marrying Bayesian inference with deep learning in a manner most elegant and transformative",
+		tags: ["paper", "arxiv", "machine-learning", "deep-learning", "generative", "research"]
+	},
+	{
+		title: "Neural Discrete Representation Learning",
+		url: "https://arxiv.org/abs/1711.00937",
+		description: "The work of van den Oord et al. that introduced VQ-VAE, learning discrete representations of data through vector quantization, a technique of great import for generative modelling",
+		tags: ["paper", "arxiv", "machine-learning", "deep-learning", "representation-learning", "research"]
+	},
+	{
+		title: "Stable Audio 3",
+		url: "https://arxiv.org/abs/2605.17991",
+		description: "Stability AI's latest marvel in sonic generation, a diffusion-based model that conjures audio of remarkable fidelity and controllability from textual descriptions",
+		tags: ["paper", "arxiv", "machine-learning", "audio", "generative", "research"]
+	},
+	{
+		title: "SAME: A Semantically-Aligned Music Autoencoder",
+		url: "https://arxiv.org/abs/2605.18613",
+		description: "A most ingenious autoencoder architecture that aligns semantic meaning with musical structure, enabling the manipulation and generation of music with unprecedented semantic coherence",
+		tags: ["paper", "arxiv", "machine-learning", "audio", "music", "research"]
 	}
 ]
 
