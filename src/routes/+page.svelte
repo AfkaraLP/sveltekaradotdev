@@ -17,7 +17,7 @@
 	const hasMore = bookmarks.length > 3;
 </script>
 
-<DropCapTitle title="The Afkara Gazette" />
+<DropCapTitle title="The Afkara Times" />
 
 <div class="page">
 	<Header />

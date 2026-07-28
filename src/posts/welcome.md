@@ -1,10 +1,10 @@
 ---
-title: "Welcome to The Afkara Gazette"
+title: "Welcome to The Afkara Times"
 date: "2026-03-06"
 description: "An inaugural dispatch from the editor's desk."
 ---
 
-Welcome, dear reader, to the very first edition of The Afkara Gazette!
+Welcome, dear reader, to the very first edition of The Afkara Times!
 
 This publication shall serve as a repository of thoughts, musings, and technical explorations in the realms of programming, data science, and the digital arts.
 

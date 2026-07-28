@@ -8,19 +8,19 @@
 	let posts = $derived(data.posts);
 </script>
 
-<DropCapTitle title="The Archives | The Afkara Gazette" />
+<DropCapTitle title="The Archives | The Afkara Times" />
 
 <svelte:head>
 	<meta
 		name="description"
 		content="A collection of writings and musings on programming, data science, and technology."
 	/>
-	<meta property="og:title" content="The Archives | The Afkara Gazette" />
+	<meta property="og:title" content="The Archives | The Afkara Times" />
 	<meta
 		property="og:description"
 		content="A collection of writings and musings on programming, data science, and technology."
 	/>
-	<meta name="twitter:title" content="The Archives | The Afkara Gazette" />
+	<meta name="twitter:title" content="The Archives | The Afkara Times" />
 	<meta
 		name="twitter:description"
 		content="A collection of writings and musings on programming, data science, and technology."

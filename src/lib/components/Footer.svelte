@@ -4,7 +4,7 @@
 
 <p class="ornament">&mdash; &#10047; &mdash;</p>
 <footer class="footer">
-	<p>&copy; {YEAR_ROMAN} The Afkara Gazette &mdash; All Rights Reserved</p>
+	<p>&copy; {YEAR_ROMAN} The Afkara Times &mdash; All Rights Reserved</p>
 </footer>
 
 <style>

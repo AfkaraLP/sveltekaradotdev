@@ -4,7 +4,7 @@
 
 <svelte:head>
 	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content="The Afkara Gazette" />
+	<meta property="og:site_name" content="The Afkara Times" />
 	<meta name="twitter:card" content="summary" />
 </svelte:head>
 

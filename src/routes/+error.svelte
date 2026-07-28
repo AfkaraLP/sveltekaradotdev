@@ -4,7 +4,7 @@
 	import DropCapTitle from '$lib/components/DropCapTitle.svelte';
 </script>
 
-<DropCapTitle title="Page Not Found | The Afkara Gazette" />
+<DropCapTitle title="Page Not Found | The Afkara Times" />
 
 <div class="page">
 	<Header />

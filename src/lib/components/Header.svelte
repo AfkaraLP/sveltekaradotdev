@@ -4,7 +4,7 @@
 
 <header class="masthead">
 	<a href="/" class="masthead-link">
-		<h1 class="masthead-title">The Afkara Gazette</h1>
+		<h1 class="masthead-title">The Afkara Times</h1>
 	</a>
 	<p class="masthead-subtitle">Purveyor of Fine Computery Activities</p>
 	<div class="date-line">

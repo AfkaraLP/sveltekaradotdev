@@ -5,7 +5,7 @@
 
 	let { data } = $props();
 	let post = $derived(data.post);
-	let pageTitle = $derived(`${post.title} | The Afkara Gazette`);
+	let pageTitle = $derived(`${post.title} | The Afkara Times`);
 </script>
 
 <DropCapTitle title={pageTitle} />
