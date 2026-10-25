@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { type Bookmark } from '$lib/config';
+	import { type Bookmark } from '#lib/config';
 
 	let { bookmark }: { bookmark: Bookmark } = $props();
 </script>

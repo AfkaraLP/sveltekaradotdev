@@ -1,10 +1,10 @@
 <script lang="ts">
-	import Header from "$lib/components/Header.svelte";
-	import Footer from "$lib/components/Footer.svelte";
-	import ProjectCard from "$lib/components/ProjectCard.svelte";
-	import DropCapTitle from "$lib/components/DropCapTitle.svelte";
-	import BookmarkCard from "$lib/components/BookmarkCard.svelte";
-	import { PROJECTS, BOOKMARKS } from "$lib/config";
+	import Header from "#lib/components/Header.svelte";
+	import Footer from "#lib/components/Footer.svelte";
+	import ProjectCard from "#lib/components/ProjectCard.svelte";
+	import DropCapTitle from "#lib/components/DropCapTitle.svelte";
+	import BookmarkCard from "#lib/components/BookmarkCard.svelte";
+	import { PROJECTS, BOOKMARKS } from "#lib/config";
 
 	const projects = PROJECTS;
 	const bookmarks = BOOKMARKS;

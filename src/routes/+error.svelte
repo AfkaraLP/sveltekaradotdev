@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Header from '$lib/components/Header.svelte';
-	import Footer from '$lib/components/Footer.svelte';
-	import DropCapTitle from '$lib/components/DropCapTitle.svelte';
+	import Header from '#lib/components/Header.svelte';
+	import Footer from '#lib/components/Footer.svelte';
+	import DropCapTitle from '#lib/components/DropCapTitle.svelte';
 </script>
 
 <DropCapTitle title="Page Not Found | The Afkara Times" />

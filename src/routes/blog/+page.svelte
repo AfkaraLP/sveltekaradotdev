@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Header from '$lib/components/Header.svelte';
-	import Footer from '$lib/components/Footer.svelte';
-	import DropCapTitle from '$lib/components/DropCapTitle.svelte';
-	import { getExcerpt } from '$lib/blog';
+	import Header from '#lib/components/Header.svelte';
+	import Footer from '#lib/components/Footer.svelte';
+	import DropCapTitle from '#lib/components/DropCapTitle.svelte';
+	import { getExcerpt } from '#lib/blog';
 
 	let { data } = $props();
 	let posts = $derived(data.posts);

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { YEAR_ROMAN } from '$lib/config';
+	import { YEAR_ROMAN } from '#lib/config';
 </script>
 
 <p class="ornament">&mdash; &#10047; &mdash;</p>

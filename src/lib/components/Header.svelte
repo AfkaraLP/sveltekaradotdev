@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { YEAR_ROMAN } from '$lib/config';
+	import { YEAR_ROMAN } from '#lib/config';
 </script>
 
 <header class="masthead">

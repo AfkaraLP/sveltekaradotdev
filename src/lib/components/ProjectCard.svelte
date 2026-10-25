@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { type Project, projectUrl } from '$lib/config';
-	import { fetchGithubStars } from '$lib/github';
+	import { type Project, projectUrl } from '#lib/config';
+	import { fetchGithubStars } from '#lib/github';
 
 	let { project }: { project: Project } = $props();
 
