@@ -42,7 +42,7 @@
 		--white: #eee;
 		--sepia: #d4c4a8;
 		--border-color: #2a2218;
-		--paper-texture: url('$lib/assets/ivory-off-white-paper-texture.jpg');
+		--paper-texture: url('#lib/assets/ivory-off-white-paper-texture.jpg');
 	}
 
 	:global(*) {

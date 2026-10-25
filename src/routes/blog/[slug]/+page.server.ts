@@ -1,4 +1,4 @@
-import { loadBlogPosts, renderMarkdown } from '$lib/blog';
+import { loadBlogPosts, renderMarkdown } from '#lib/blog';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 

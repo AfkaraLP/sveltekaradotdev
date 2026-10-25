@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { splitFirstLetter, generateLetterFavicon } from '$lib/config';
-	import { browser } from '$app/environment';
+	import { splitFirstLetter, generateLetterFavicon } from '#lib/config';
+	import { browser } from '$app/env';
 
 	let { title }: { title: string } = $props();
 
