@@ -3,9 +3,25 @@
 </script>
 
 <svelte:head>
+	<title>The Afkara Times — Developer &amp; Creator</title>
+	<meta
+		name="description"
+		content="AfkaraLP's portfolio, projects, and blog — purveyor of fine computery activities."
+	/>
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="The Afkara Times" />
+	<meta property="og:title" content="The Afkara Times — Developer &amp; Creator" />
+	<meta
+		property="og:description"
+		content="AfkaraLP's portfolio, projects, and blog — purveyor of fine computery activities."
+	/>
+	<meta property="og:url" content="https://afkara.dev/" />
 	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="The Afkara Times — Developer &amp; Creator" />
+	<meta
+		name="twitter:description"
+		content="AfkaraLP's portfolio, projects, and blog — purveyor of fine computery activities."
+	/>
 </svelte:head>
 
 {@render children()}
