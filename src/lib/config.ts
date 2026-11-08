@@ -142,13 +142,6 @@ export const PROJECTS: Project[] = [
 		"language": "Rust",
 		"owner": "afkaralp",
 		"repo": "torus-http"
-	},
-	{
-		"name": "sexditor",
-		"description": "Born of curiosity! The author's expedition into ratatui, regex illumination, helix motions & the essential arts of saving and editing",
-		"language": "Rust",
-		"owner": "afkaralp",
-		"repo": "sexditor"
 	}
 ];
 
